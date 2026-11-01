@@ -1,1 +1,0 @@
-const toggle=document.getElementById("menuToggle");const nav=document.getElementById("mainNav");if(toggle&&nav){toggle.addEventListener("click",()=>nav.classList.toggle("open"));}document.querySelectorAll('input[type="date"]').forEach(el=>{if(el.min==="")el.min=new Date().toISOString().slice(0,10);});
